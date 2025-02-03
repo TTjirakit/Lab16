@@ -35,7 +35,7 @@ int main(){
 
 void showData(double *data, int N, int M){
     cout << fixed << setprecision(2);
-    for(int i = 0; i < N-1*M-1; i++){
+    for(int i = 0; i < N*M; i++){
         cout << data[i];
         if((i + 1) % M == 0) cout << endl;
         else cout << " ";
